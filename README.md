@@ -1,3 +1,10 @@
+# GIT
+## Sync tags
+```
+  git tag -l | xargs git tag -d
+  git fetch --tags
+```
+
 # PgSQL
 ## Depth in tree
 ```
